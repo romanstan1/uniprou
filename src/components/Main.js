@@ -6,11 +6,13 @@ class Main extends Component {
   render() {
     return (
       <div id='main'>
-        Working!
+        something
       </div>
     )
   }
 }
+
+
 
 export default connect(state => ({
 }))(Main)
