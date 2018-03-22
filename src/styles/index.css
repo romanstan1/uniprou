@@ -5,4 +5,17 @@
   border-width: 1px; }
 
 body {
-  color: red; }
+  font-family: sans-serif; }
+
+nav {
+  background: ghostwhite;
+  text-align: center; }
+  nav ul li {
+    padding: 10px;
+    display: inline-block;
+    list-style: none;
+    cursor: pointer;
+    margin: 0 10px; }
+
+div#main {
+  text-align: center; }

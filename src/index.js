@@ -18,7 +18,6 @@ var config = {
   };
   firebase.initializeApp(config);
 
-
 const history = createBrowserHistory()
 render(
   <Provider store={store}>
