@@ -40,10 +40,11 @@ app.get('/:page', (req, res) => {
           }
 
           header {
-            background: Tomato;
+            background: navy;
             color: white;
-            font-size: 2em;
+            font-size: 15px;
             text-align: center;
+            padding: 10px 0;
           }
 
           h1 {

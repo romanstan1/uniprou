@@ -4,6 +4,7 @@
 /node_modules
 /functions/node_modules
 /functions/.eslintrc.json
+/functions/firebase-debug.log
 
 # testing
 /coverage
