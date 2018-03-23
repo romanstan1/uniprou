@@ -1,0 +1,34 @@
+[debug] [2018-03-23T11:10:30.709Z] ----------------------------------------------------------------------
+[debug] [2018-03-23T11:10:30.712Z] Command:       /usr/local/Cellar/node/9.4.0/bin/node /usr/local/bin/firebase serve --only functions
+[debug] [2018-03-23T11:10:30.712Z] CLI Version:   3.17.7
+[debug] [2018-03-23T11:10:30.713Z] Platform:      darwin
+[debug] [2018-03-23T11:10:30.713Z] Node Version:  v9.4.0
+[debug] [2018-03-23T11:10:30.713Z] Time:          Fri Mar 23 2018 11:10:30 GMT+0000 (GMT)
+[debug] [2018-03-23T11:10:30.713Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-03-23T11:10:30.723Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-03-23T11:10:30.723Z] > authorizing via signed-in user
+[debug] [2018-03-23T11:10:30.725Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/unipro-u  
+  
+ Fri Mar 23 2018 11:10:30 GMT+0000 (GMT)
+[debug] [2018-03-23T11:10:31.313Z] <<< HTTP RESPONSE 200
+[debug] [2018-03-23T11:10:31.314Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/unipro-u/tokens  
+  
+ Fri Mar 23 2018 11:10:31 GMT+0000 (GMT)
+[debug] [2018-03-23T11:10:31.979Z] <<< HTTP RESPONSE 200
+[debug] [2018-03-23T11:10:31.980Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/unipro-u  
+  
+ Fri Mar 23 2018 11:10:31 GMT+0000 (GMT)
+[debug] [2018-03-23T11:10:32.603Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/romanstankiewicz/Development/UNIPRO/uniprou'...
+[info] 
+[info] i  functions: Preparing to emulate functions.
+[debug] [2018-03-23T11:10:33.463Z] Fetching environment
+[debug] [2018-03-23T11:10:33.466Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/235366353258:getServerAppConfig  
+  
+ Fri Mar 23 2018 11:10:33 GMT+0000 (GMT)
+[debug] [2018-03-23T11:10:33.835Z] <<< HTTP RESPONSE 200
+[debug] [2018-03-23T11:10:33.836Z] Starting @google-cloud/functions-emulator
+[debug] [2018-03-23T11:10:35.402Z] Parsing function triggers
+[info] ✔  functions: showPage: http://localhost:5000/unipro-u/us-central1/showPage

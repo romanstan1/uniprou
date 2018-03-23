@@ -30,6 +30,7 @@ app.get('/:page', (req, res) => {
         <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
 
         <script async src="https://cdn.ampproject.org/v0.js"></script>
+
         <style amp-custom>
 
           body {
@@ -49,11 +50,13 @@ app.get('/:page', (req, res) => {
             margin: 0;
             padding: 0.5em;
             background: white;
-            box-shadow: 0px 3px 5px grey;
           }
           p {
             padding: 0.5em;
             margin: 0.5em;
+          }
+          amp-img {
+            background: ghostwhite;
           }
 
         </style>
@@ -66,7 +69,7 @@ app.get('/:page', (req, res) => {
         <article>
           <h1>Show ${req.params.page}</h1>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam egestas tortor sapien, non tristique ligula accumsan eu.</p>
-          <amp-img src="mountains.jpg" layout="responsive" width="266" height="150"></amp-img>
+          <amp-img src="http://ichef.bbci.co.uk/naturelibrary/images/ic/credit/640x395/m/mo/mountain/mountain_1.jpg" layout="responsive" width="266" height="150"></amp-img>
         </article>
       </body>
     </html>

@@ -9,7 +9,7 @@ export const history = createHistory()
 const enhancers = []
 const logger = store => next => action => {
   let result = next(action)
-  console.log("store: ",action.type, store.getState())
+  // console.log("store: ",action.type, store.getState())
   return result
 }
 
